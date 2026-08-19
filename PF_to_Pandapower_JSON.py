@@ -64,7 +64,7 @@ print(app)
 print("PowerFactory connection OK")
 
 # Inicializacija projekta
-project_name = "SLO_model_2025"
+project_name = "..."
 result = app.ActivateProject(project_name)
 if result != 0:
     raise RuntimeError(f"Projekta '{project_name}' ni bilo mogoče aktivirati.")
